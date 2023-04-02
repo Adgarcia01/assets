@@ -1,5 +1,21 @@
 module.exports = {
   mainnet: {
+    terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst: {
+      protocol: "Capapult",
+      symbol: "SOLID",
+      name: "Solid",
+      token: "terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
+      icon: "https://assets.capapult.finance/icon/Solid.svg",
+      decimals: 6,
+    },
+    terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar: {
+      protocol: "Capapult",
+      symbol: "CAPA",
+      name: "Capapult",
+      token: "terra1t4p3u8khpd7f8qzurwyafxt648dya6mp6vur3vaapswt6m24gkuqrfdhar",
+      icon: "https://assets.capapult.finance/icon/Capa.svg",
+      decimals: 6,
+    },
     terra19p20mfnvwh9yvyr7aus3a6z6g6uk28fv4jhx9kmnc2m7krg27q2qkfenjw: {
       protocol: "Orne",
       symbol: "ORNE",
@@ -127,6 +143,14 @@ module.exports = {
       icon: "https://raw.githubusercontent.com/certusone/wormhole-token-list/main/assets/AVAX_wh.png",
       decimals: 8,
     },
+    terra1rwg5kt6kcyxtz69acjgpeut7dgr4y3r7tvntdxqt03dvpqktrfxq4jrvpq: {
+      protocol: "Wormhole",
+      symbol: "UST",
+      name: "UST (Portal)",
+      token: "terra1rwg5kt6kcyxtz69acjgpeut7dgr4y3r7tvntdxqt03dvpqktrfxq4jrvpq",
+      icon: "https://raw.githubusercontent.com/certusone/wormhole-token-list/main/assets/UST_wh.png",
+      decimals: 6,
+    },
      terra1564y9uxzhast8sk5n47teypy4mxy7fg5vne2msuztsft7qk3pj9sxxuxmc: {
       protocol: "TerraFloki",
       symbol: "TFLOKI",
@@ -219,6 +243,38 @@ module.exports = {
       token: "terra1q8kfp0v9rhef0d3u44ds9shwvwcusjheh8nhye3n7gwjd95ze96sehyp6w",
       icon: "https://santerra.app/sant_logo.svg",
       decimals: 6
+    },
+    terra1ry9f6alqyf9dpj04u9ymq5u4whjndu485agh6gusn89dmqse3ggsnzducj: {
+      protocol: "Optimizer Protocol",
+      symbol: "OPZA",
+      name: "Luna optimizer token",
+      token: "terra1ry9f6alqyf9dpj04u9ymq5u4whjndu485agh6gusn89dmqse3ggsnzducj",
+      icon: "https://avatars.githubusercontent.com/u/111164738?s=400&u=970d83fe90b55d4ca45e798fe0bc387d4ec5cbd5&v=4",
+      decimals: 6,
+    },
+    terra1xp9hrhthzddnl7j5du83gqqr4wmdjm5t0guzg9jp6jwrtpukwfjsjgy4f3: {
+      protocol: "Sayve",
+      symbol: "SAYVE",
+      name: "Sayve Token",
+      token: "terra1xp9hrhthzddnl7j5du83gqqr4wmdjm5t0guzg9jp6jwrtpukwfjsjgy4f3",
+      icon: "https://raw.githubusercontent.com/sayveprotocol/web-assets/main/logos/sayve-logo.png",
+      decimals: 6,
+    },
+    terra16zc783wt2w5lvlt9u4as977lt39c3se427akkenrzyax5vtde70qa89ukv: {
+      protocol: "Sayve",
+      symbol: "xSAYVE",
+      name: "Staked Sayve Token",
+      token: "terra16zc783wt2w5lvlt9u4as977lt39c3se427akkenrzyax5vtde70qa89ukv",
+      icon: "https://raw.githubusercontent.com/sayveprotocol/web-assets/main/logos/xsayve-logo.png",
+      decimals: 6,
+    },
+     terra1ulr678u52qwt27dsgxrftthq20a8v8t9s8f3hz5z8s62wsu6rslqyezul4: {
+      protocol: "LBUNswap",
+      symbol: "LBUN",
+      name: "LUNC Burn Token",
+      token: "terra1ulr678u52qwt27dsgxrftthq20a8v8t9s8f3hz5z8s62wsu6rslqyezul4",
+      icon: "https://raw.githubusercontent.com/lbunproject/LBUNswap-web-app_Terra2/main/public/images/others/LBUN.svg",
+      decimals: 6,
     },
   },
   classic: {
@@ -676,8 +732,8 @@ module.exports = {
     },
     terra1php5m8a6qd68z02t3zpw4jv2pj4vgw4wz0t8mz: {
       protocol: "White Whale",
-      symbol: "WHALE",
-      name: "Whale Token",
+      symbol: "WHALEC",
+      name: "Whale Classic Token",
       token: "terra1php5m8a6qd68z02t3zpw4jv2pj4vgw4wz0t8mz",
       icon: "https://www.whitewhale.money/tokenlogo.png",
       decimals: 6,
@@ -1030,7 +1086,7 @@ module.exports = {
       symbol: "PRISM",
       name: "Prism Protocol Token",
       token: "terra1dh9478k2qvqhqeajhn75a2a7dsnf74y5ukregw",
-      icon: "https://prismprotocol.app/prism.png",
+      icon: "https://home.prismprotocol.app/prism.png",
       decimals: 6,
     },
     terra1l0y8yg0s86x299nqw0p6fhh7ngex3r4phtjeuq: {
@@ -1062,7 +1118,7 @@ module.exports = {
       symbol: "xPRISM",
       name: "Prism Governance Token",
       token: "terra1042wzrwg2uk6jqxjm34ysqquyr9esdgm5qyswz",
-      icon: "https://prismprotocol.app/xprism.png",
+      icon: "https://home.prismprotocol.app/xprism.png",
       decimals: 6,
     },
     terra13fs83g5atgjwuh7c5ydzh6n7gecel6xyhhy2t5: {
@@ -1234,8 +1290,8 @@ module.exports = {
     },
     terra14v9wrjs55qsn9lkvylsqela3w2ytwxzkycqzcr: {
       protocol: "Sayve",
-      symbol: "SAYVE",
-      name: "Sayve Token",
+      symbol: "SAYVEC",
+      name: "Sayve Classic Token",
       token: "terra14v9wrjs55qsn9lkvylsqela3w2ytwxzkycqzcr",
       icon: "https://raw.githubusercontent.com/sayveprotocol/web-assets/main/logos/sayve-logo.png",
       decimals: 6,
@@ -1726,7 +1782,7 @@ module.exports = {
       symbol: "cLUNA",
       name: "cLUNA",
       token: "terra13eekqp0zgj55arjuacpxqxzgqy2uydf5wzzqns9ddgpepj377afqflunf3",
-      icon: "https://prismprotocol.app/cLuna.svg",
+      icon: "https://home.prismprotocol.app/cluna.png",
       decimals: 6
     },
     terra1hjyl8ymsd9sn59kx733aka4rxfelf43pw6fjjf: {
@@ -1775,6 +1831,38 @@ module.exports = {
       name: "Lunc optimizer token",
       token: "terra1kqf8ua7al5tdnkz95ue4zkuv4gcu52pt63ya54",
       icon: "https://assets.terra.money/icon/opz/OPZ.png",
+      decimals: 6,
+    },
+    terra1g9carn4sdnlv2uw2u4uelqpf8lun9zwymhuf70: {
+      protocol: "LunaPunks",
+      symbol: "LPRT",
+      name: "LunaPunks Remint Token",
+      token: "terra1g9carn4sdnlv2uw2u4uelqpf8lun9zwymhuf70",
+      icon: "https://ipfs.lunapunks.io/ipfs/QmQmSwJEgPAWQNPR9S6cLc3cSKT3k16e44ZC7bUxuD7ERd",
+      decimals: 0,
+    },
+      terra1rdqy74e080e96qhk5gntnr882awm4pfc7t6dn4: {
+      protocol: "Optimizer Protocol",
+      symbol: "OPZC",
+      name: "Lunc optimizer token",
+      token: "terra1rdqy74e080e96qhk5gntnr882awm4pfc7t6dn4",
+      icon: "https://assets.terra.money/icon/opz/OPZC.png",
+      decimals: 6,
+    },
+    terra10sfn80av99qkcx3rdpm4rt9hsguadyra5ewyxr: {
+      protocol: "Sonikchain",
+      symbol: "SON",
+      name: "Sonic Token",
+      token: "terra10sfn80av99qkcx3rdpm4rt9hsguadyra5ewyxr",
+      icon: "https://swap.sonikchain.com/sonic32.png",
+      decimals: 6,
+    },
+    terra1lx6w28yvma0y8hll0svg687ft694yrgax5k276: {
+      protocol: "Terraport",
+      symbol: "TERRA",
+      name: "Terraport",
+      token: "terra1lx6w28yvma0y8hll0svg687ft694yrgax5k276",
+      icon: "https://i.ibb.co/GtmvHT4/logo.png",
       decimals: 6,
     },
   },
