@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/terra-money/assets#readme",
   "dependencies": {
-    "glob": "^7.2.0",
+    "glob": "^7.2.3",
     "husky": "^8.0.1",
     "lint-staged": ">=10"
   },
