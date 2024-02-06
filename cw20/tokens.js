@@ -1,5 +1,13 @@
 module.exports = {
   mainnet: {
+    terra1aecddsx0lvmylpzgq9le8uw4apnplhswp44vznecll6ccu044gnqsgcsga: {
+      protocol: "Phoenix DAO",
+      symbol: "FIRE",
+      name: "Phoenix DAO Token",
+      token: "terra1aecddsx0lvmylpzgq9le8uw4apnplhswp44vznecll6ccu044gnqsgcsga",
+      icon: "https://assets.terra.dev/icon/svg/FIRE.png",
+      decimals: 6,
+    },
     terra10se906awphtccf4vd83m0ulpmpt9v4msuakmpy0pwvmtxmup3kdq25rayn: {
       protocol: "TheOnlyOne DAO",
       symbol: "xxx",
@@ -33,7 +41,7 @@ module.exports = {
       decimals: 6,
     },
     terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k: {
-      protocol: "portugal.protocol",
+      protocol: "dioalma.protocol",
       symbol: "Dinheiros",
       name: "dinheiro",
       token: "terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k",
@@ -41,7 +49,7 @@ module.exports = {
       decimals: 0,
     },
     terra1sdglum2dt4f3fmq7jrt2phf2tegmnudc7qqqqujkpqcm9ujuxxkqakv5u8: {
-      protocol: "portugal.protocol",
+      protocol: "dioalma.protocol",
       symbol: "Reis",
       name: "real",
       token: "terra1sdglum2dt4f3fmq7jrt2phf2tegmnudc7qqqqujkpqcm9ujuxxkqakv5u8",
@@ -49,7 +57,7 @@ module.exports = {
       decimals: 6,
     },
     terra1qj5hs3e86qn4vm9dvtgtlkdp550r0rayk9wpay44mfw3gn3tr8nq5jw3dg: {
-      protocol: "portugal.protocol",
+      protocol: "dioalma.protocol",
       symbol: "Escudos",
       name: "escudo",
       token: "terra1qj5hs3e86qn4vm9dvtgtlkdp550r0rayk9wpay44mfw3gn3tr8nq5jw3dg",
@@ -73,7 +81,7 @@ module.exports = {
       decimals: 6,
     },
     terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q: {
-      protocol: "alentejo.protocol",
+      protocol: "dioalma.protocol",
       symbol: "Alem",
       name: "alentejo.money",
       token: "terra1cmf8ytutcwrjrv08zskj9phuh46a3w3nkjax7en4hxezsrdr58lqvzy05q",
@@ -138,7 +146,7 @@ module.exports = {
     terra1ctelwayk6t2zu30a8v9kdg3u2gr0slpjdfny5pjp7m3tuquk32ysugyjdg: {
       protocol: "Wormhole",
       symbol: "wSOL",
-      name: "Wrapped SOL",
+      name: "Solana (Portal)",
       token: "terra1ctelwayk6t2zu30a8v9kdg3u2gr0slpjdfny5pjp7m3tuquk32ysugyjdg",
       icon: "https://raw.githubusercontent.com/solana-labs/token-list/main/assets/mainnet/So11111111111111111111111111111111111111112/logo.png",
       decimals: 8,
@@ -364,8 +372,48 @@ module.exports = {
       icon: "https://raw.githubusercontent.com/terragem/gem/main/gem2.png",
       decimals: 6,
     },
+    terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v: {
+      protocol: "Bitz DAO",
+      symbol: "BITZ",
+      name: "Bitz DAO Token",
+      token: "terra18vp5s0r7keezm35hdxsgw8zgfnyn8wejdkk893ag2kqncgpqxhjqwjpc0v",
+      icon: "https://assets.terra.dev/icon/svg/BitzDAO_Token.png",
+      decimals: 6,
+    },
+    terra1vkf48nr8z84xkg6535qqx9pw0se9hjha9dallv2xpfngn776ksyq0gr7e2: {
+      protocol: "Wormhole",
+      symbol: "TON",
+      name: "Toncoin (Portal)",
+      token: "terra1vkf48nr8z84xkg6535qqx9pw0se9hjha9dallv2xpfngn776ksyq0gr7e2",
+      icon: "https://ton.org/download/ton_symbol.svg",
+      decimals: 8,
+    },
+    terra1z2cn5r7p7sezmq5ttwrutvqnczqa9244syd4w2uu2tvjarv68dqqlwx48v: {
+      protocol: "Wormhole",
+      symbol: "DOGE",
+      name: "Dogecoin (Portal)",
+      token: "terra1z2cn5r7p7sezmq5ttwrutvqnczqa9244syd4w2uu2tvjarv68dqqlwx48v",
+      icon: "https://assets.terra.dev/icon/svg/DOGE.svg",
+      decimals: 8,
+    },
+    terra1xc7ynquupyfcn43sye5pfmnlzjcw2ck9keh0l2w2a4rhjnkp64uq4pr388: {
+      protocol: "Wormhole",
+      symbol: "BNB",
+      name: "Binance Coin (Portal)",
+      token: "terra1xc7ynquupyfcn43sye5pfmnlzjcw2ck9keh0l2w2a4rhjnkp64uq4pr388",
+      icon: "https://assets.terra.dev/icon/svg/wBNB.png",
+      decimals: 8,
+    }
   },
   classic: {
+    terra1j9q30fspe7tn0nrxpjfnzzdha4xfkyznluwnqrgxshtyv2tfe5kswnrj6c: {
+      protocol: "LUNC Warriors NFT",
+      symbol: "LUNW",
+      name: "LUNC Warriors Token",
+      token: "terra1j9q30fspe7tn0nrxpjfnzzdha4xfkyznluwnqrgxshtyv2tfe5kswnrj6c",
+      icon: "https://raw.githubusercontent.com/LUNC-Warriors-NFT/cw20-token-assets/main/logo.png",
+      decimals: 6,
+    },
     terra1kc87mu460fwkqte29rquh4hc20m54fxwtsx7gp: {
       protocol: "Anchor",
       symbol: "bLuna",
@@ -1945,11 +1993,11 @@ module.exports = {
       icon: "https://swap.sonikchain.com/sonic32.png",
       decimals: 6,
     },
-    terra1lx6w28yvma0y8hll0svg687ft694yrgax5k276: {
+    terra1ex0hjv3wurhj4wgup4jzlzaqj4av6xqd8le4etml7rg9rs207y4s8cdvrp: {
       protocol: "Terraport",
       symbol: "TERRA",
       name: "Terraport",
-      token: "terra1lx6w28yvma0y8hll0svg687ft694yrgax5k276",
+      token: "terra1ex0hjv3wurhj4wgup4jzlzaqj4av6xqd8le4etml7rg9rs207y4s8cdvrp",
       icon: "https://i.ibb.co/GtmvHT4/logo.png",
       decimals: 6,
     },
@@ -1961,6 +2009,86 @@ module.exports = {
       icon: "https://raw.githubusercontent.com/reglisosa/public/main/data/dokwon.png",
       decimals: 2,
     },
+    terra1e6snk4pn5y5t4c3qpy6y6aumhlqagzp9dem96zkg92dm4r57lm4s343nnd: {
+      protocol: "LUNCPenguins",
+      symbol: "SGEM",
+      name: "Sapphire Gem",
+      token: "terra1e6snk4pn5y5t4c3qpy6y6aumhlqagzp9dem96zkg92dm4r57lm4s343nnd",
+      icon: "https://hccfactory.com/assets/img/gems/SGEM.png",
+      decimals: 6,
+    },
+    terra13lzs83suwmsznu0h62gc5urarmeal7k6ys2vypszjku20s54g2lqkwrhkl: {
+      protocol: "LUNCPenguins",
+      symbol: "RGEM",
+      name: "Ruby Gem",
+      token: "terra13lzs83suwmsznu0h62gc5urarmeal7k6ys2vypszjku20s54g2lqkwrhkl",
+      icon: "https://hccfactory.com/assets/img/gems/RGEM.png",
+      decimals: 6,
+    },
+    terra1ef5kyrf8f65lz2wwuhmxz6hph7ag5pm7xypyvccaezusf38az3tquc0ysg: {
+      protocol: "LUNCPenguins",
+      symbol: "EGEM",
+      name: "Emerald Gem",
+      token: "terra1ef5kyrf8f65lz2wwuhmxz6hph7ag5pm7xypyvccaezusf38az3tquc0ysg",
+      icon: "https://hccfactory.com/assets/img/gems/EGEM.png",
+      decimals: 6,
+    },
+    terra18jrgexnn35dxa8nrpmuatkxknmjs330gp6txavrp3fxzz6muztqqec60hf: {
+      protocol: "LUNCPenguins",
+      symbol: "DGEM",
+      name: "Diamond Gem",
+      token: "terra18jrgexnn35dxa8nrpmuatkxknmjs330gp6txavrp3fxzz6muztqqec60hf",
+      icon: "https://hccfactory.com/assets/img/gems/DGEM.png",
+      decimals: 6,
+    },
+    terra1r9laq5788d36gxmf8jkayln3g5szg4ql0nmccs: {
+      protocol: "DFLunc Protocol",
+      symbol: "DFC",
+      name: "DFC Token",
+      token: "terra1r9laq5788d36gxmf8jkayln3g5szg4ql0nmccs",
+      icon: "https://i.ibb.co/C9bnNdr/favicon.png",
+      decimals: 6,
+    },
+    terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m: {
+      protocol: "LBUNProject",
+      symbol: "BASE",
+      name: "Burn and Stake Enterprise Token",
+      token: "terra1uewxz67jhhhs2tj97pfm2egtk7zqxuhenm4y4m",
+      icon: "https://raw.githubusercontent.com/lbunproject/BASE_whitepaper_classic/main/thumbnails/LBUNC_256.png",
+      decimals: 6,
+    },
+    terra1duwst8wnp6tv9m97mc66afqm7yqfmcdrqjdkzyqyjejxry4hkp8qq225yh: {
+      protocol: "GAME Protocol",
+      symbol: "GAME",
+      name: "GAME Token",
+      token: "terra1duwst8wnp6tv9m97mc66afqm7yqfmcdrqjdkzyqyjejxry4hkp8qq225yh",
+      icon: "https://raw.githubusercontent.com/GAMEProtocal/GAME/446f1cbd56e76041d29d7651569d4b1ee6f910dd/icon/GAME_icon_128.png",
+      decimals: 6,
+    },
+    terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw: {
+      protocol: "Garuda Universe",
+      symbol: "GRDX",
+      name: "GarudaX Token",
+      token: "terra12f3f5fzfzxckc0qlv3rmwwkjfhzevpwmx77345n0zuu2678vxf0sm6vvcw",
+      icon: "https://i.ibb.co/jkwPpnS/zz1.png",
+      decimals: 6,
+    },
+    terra1g6fm3yu79gv0rc8067n2nnfpf0vks6n0wpzaf4u7w48tdrmj98zsy7uu00: {
+      protocol: "Terra Tritium",
+      symbol: "TRIT",
+      name: "Terra Tritium Token",
+      token: "terra1g6fm3yu79gv0rc8067n2nnfpf0vks6n0wpzaf4u7w48tdrmj98zsy7uu00",
+      icon: "https://raw.githubusercontent.com/terra-tritium/assets/main/trit.png",
+      decimals: 6,
+    },
+    terra107s9c27aj08rgcwwuxmyzapz66xu9u7c66urypy9v8mzurqh87pst4yv8t: {
+      protocol: "LunaBurningKnights",
+      symbol: "KNGT",
+      name: "Knights Gaming Token",
+      token: "terra107s9c27aj08rgcwwuxmyzapz66xu9u7c66urypy9v8mzurqh87pst4yv8t",
+      icon: "https://lunaburningknights.io/kngt-logo.png",
+      decimals: 6,
+    }
   },
   testnet: {
     terra1293l9rgqk5vxndaeqmengssg3pdch57qpepgslh7p2sg3lqd87rss8du4s: {
