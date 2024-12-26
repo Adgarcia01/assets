@@ -2,7 +2,7 @@
   "mainnet": {
     "name": "mainnet",
     "chainID": "phoenix-1",
-    "lcd": "https://phoenix-lcd.terra.dev",
+    "lcd": "https://lcd-terra.tfl.foundation",
     "api": "https://phoenix-api.terra.dev",
     "hive": "https://phoenix-hive.terra.dev/graphql",
     "walletconnectID": 1
